@@ -1,0 +1,40 @@
+{
+  "name": "seshat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --watchAll"
+  },
+  "author": "Jovan Ivanovic",
+  "license": "MIT",
+  "dependencies": {
+    "alasql": "^0.5.1",
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.17.1",
+    "msgpack": "^1.0.3",
+    "nedb": "^1.8.0",
+    "signale": "^1.4.0",
+    "ws": "^7.2.0",
+    "yargs": "^14.2.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "signale": {
+    "displayScope": true,
+    "displayBadge": false,
+    "displayDate": false,
+    "displayFilename": false,
+    "displayLabel": true,
+    "displayTimestamp": true,
+    "underlineLabel": true,
+    "underlineMessage": false,
+    "underlinePrefix": false,
+    "underlineSuffix": false,
+    "uppercaseLabel": true
+  }
+}
